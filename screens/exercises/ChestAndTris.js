@@ -6,7 +6,7 @@ import { styles, colors} from '../../styles/styles'
 export default function ChestAndTris({ navigation }) {
     return (
         <>
-            <Button title="yo" />
+            <Button title="trav" />
             <FABAddExercise />
         </>
     )

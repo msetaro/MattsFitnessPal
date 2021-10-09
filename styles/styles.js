@@ -14,5 +14,10 @@ export const styles = StyleSheet.create({
         right: 0,
         bottom: 0,
         backgroundColor: colors.navyBlue
+    },
+    addExerciseModal: {
+        marginTop: 15,
+        padding: 15,
+        height: '50%'
     }
 })
