@@ -1,5 +1,6 @@
 import React from "react";
 import { StyleSheet } from "react-native";
+import { shadow } from "react-native-paper";
 
 // colors
 export const colors = {
@@ -7,7 +8,11 @@ export const colors = {
 }
 
 export const styles = StyleSheet.create({
-    main:{
-        backgroundColor: 'pink'
+    fab:{
+        position: 'absolute',
+        margin: 16,
+        right: 0,
+        bottom: 0,
+        backgroundColor: colors.navyBlue
     }
 })

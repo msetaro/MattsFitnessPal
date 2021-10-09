@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, StyleSheet, Text, View } from 'react-native';
-import { Header } from 'react-native-elements';
-import { styles, colors} from '../../styles/styles'
+import FABAddExercise from '../../components/FABAddExercise';
+import { styles, colors } from '../../styles/styles';
 
 export default function BackAndBis({ navigation }) {
 
@@ -9,6 +9,7 @@ export default function BackAndBis({ navigation }) {
     return (
         <>
             <Text>Hey there</Text>
+            <FABAddExercise />
         </>
     )
 }
